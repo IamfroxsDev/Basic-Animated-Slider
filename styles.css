@@ -1,0 +1,53 @@
+/*Global Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SLIDER */
+
+/*Styles of the principal container*/
+.slider{
+    width: 800px;
+    margin: 1rem auto;
+    overflow: hidden;
+}
+
+/*Style of the images container*/
+.slider-body{
+    display: flex;
+    width: 100%;
+}
+
+/*Style of the images*/
+.img{
+    display: block;
+    width: 100%;
+    transition: 1s all;
+}
+
+/*Style for the buttons container*/
+.buttons-group{
+    display: table;
+    margin: auto;
+}
+
+/* BUTTONS */
+
+/*Styles for the buttons*/
+.button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #333;
+    cursor: pointer;
+}
+
+/*Hover Effect of the buttons*/
+.button:hover{
+    background-color: #333;
+    color: white;
+}

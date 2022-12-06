@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Animated Slider</title>
+</head>
+
+<body>
+
+    <!--General Container-->
+    <div class="slider">
+        <!--Images Container-->
+        <div class="slider-body">
+            <img class="img" src="img/image_1.jpg" alt="">
+            <img class="img" src="img/image_2.jpg" alt="">
+            <img class="img" src="img/image_3.jpg" alt="">
+            <img class="img" src="img/image_4.jpg" alt="">
+        </div>
+    </div>
+
+    <!--Buttons Group-->
+    <div class="buttons-group">
+        <button onclick="previus()" class="button"><</button> <!--previus() is in the JS code-->
+        <button onclick="next()" class="button">></button> <!--next() is in the JS code-->
+    </div>
+
+    <!--Reference to de JS code-->
+    <script src="script.js"></script>
+</body>
+
+</html>
